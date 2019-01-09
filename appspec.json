@@ -8,7 +8,7 @@
  				"Alias": "production",
  				"CurrentVersion": "1",
  				"TargetVersion": "1",
-				 "bundleType": "zip"
+				"BundleType": "zip"
  			}
  		}
  	}],
