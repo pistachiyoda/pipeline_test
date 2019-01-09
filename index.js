@@ -1,3 +1,7 @@
+const _ = require("lodash"); 
+
 exports.handler = function() {
-    console.log("test");
+    const array = [1,2,3];
+    console.log(_.map(array, item => item + 1));
 }
+
