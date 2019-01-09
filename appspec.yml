@@ -1,9 +1,0 @@
-version: 0.0
-Resources:
-  - pipeline_test:
-      Type: AWS::Lambda::Function
-      Properties:
-        Name: "pipeline_test"
-        Alias: "production"
-        CurrentVersion: "1"
-        TargetVersion: "2"
